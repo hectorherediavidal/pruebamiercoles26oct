@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.bannerFoto {
+  width: 100%;
+}
+
+header {
+  background-color: red;
+}
+
+nav {
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.navegadorPrincipal {
+    list-style: none;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+/* MAIN */
+
+
+/* FOOTER */
+/* Section de fotos */
+.fotos {
+  display: flex;
+  height: 100%;
+  
+}
+.fotoizq, .fotoderecha {
+  width: 50vw;
+}
+
+
+
+.fotoderecha {
+background: url(../imagenes/desktop/section2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
